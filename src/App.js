@@ -4,112 +4,106 @@ import './App.css';
 function App() {
   return (
     <div className="app">
-      <label>
-        Button:
+      <div>
+        <label>Button:</label>
         <input type="button" value="Click me" />
-      </label>
-      <label>
-        Checkbox:
+      </div>
+      <div>
+        <label>Checkbox:</label>
         <input type="checkbox" />
-      </label>
-      <label>
-        Color:
+      </div>
+      <div>
+        <label>Color:</label>
         <input type="color" />
-      </label>
-      <label>
-        Date:
+      </div>
+      <div>
+        <label>Date:</label>
         <input type="date" />
-      </label>
-      <label>
-        DateTime Local:
+      </div>
+      <div>
+        <label>DateTime Local:</label>
         <input type="datetime-local" />
-      </label>
-      <label>
-        Email:
+      </div>
+      <div>
+        <label>Email:</label>
         <input type="email" />
-      </label>
-      <label>
-        File:
+      </div>
+      <div>
+        <label>File:</label>
         <input type="file" />
-      </label>
-      <label>
-        Hidden:
+      </div>
+      <div>
+        <label>Hidden:</label>
         <input type="hidden" />
-      </label>
-      <label>
-        Image:
+      </div>
+      <div>
+        <label>Image:</label>
         <input type="image" src="https://via.placeholder.com/20" alt="placeholder" />
-      </label>
-      <label>
-        Month:
+      </div>
+      <div>
+        <label>Month:</label>
         <input type="month" />
-      </label>
-      <label>
-        Number:
+      </div>
+      <div>
+        <label>Number:</label>
         <input type="number" />
-      </label>
-      <label>
-        Password:
+      </div>
+      <div>
+        <label>Password:</label>
         <input type="password" />
-      </label>
-      <label>
-        Radio:
+      </div>
+      <div>
+        <label>Radio:</label>
         <input type="radio" />
-      </label>
-      <label>
-        Range:
+      </div>
+      <div>
+        <label>Range:</label>
         <input type="range" />
-      </label>
-      <label>
-        Reset:
+      </div>
+      <div>
+        <label>Reset:</label>
         <input type="reset" />
-      </label>
-      <label>
-        Search:
+      </div>
+      <div>
+        <label>Search:</label>
         <input type="search" />
-      </label>
-      <label>
-        Submit:
+      </div>
+      <div>
+        <label>Submit:</label>
         <input type="submit" />
-      </label>
-      <label>
-        Tel:
+      </div>
+      <div>
+        <label>Tel:</label>
         <input type="tel" />
-      </label>
-      <label>
-        Text:
+      </div>
+      <div>
+        <label>Text:</label>
         <input type="text" defaultValue="Default Text" />
-      </label>
-      <label>
-        Time:
+      </div>
+      <div>
+        <label>Time:</label>
         <input type="time" />
-      </label>
-      <label>
-        URL:
+      </div>
+      <div>
+        <label>URL:</label>
         <input type="url" />
-      </label>
-      <label>
-        Week:
+      </div>
+      <div>
+        <label>Week:</label>
         <input type="week" />
-      </label>
-      <label>
-        Dropdown Menu:
+      </div>
+      <div>
+        <label>Dropdown Menu:</label>
         <select>
-          <option value="dropdownmenu">one</option>
-          <option value="dropdownmenu">two</option>
-          <option value="dropdownmenu">three</option>
-          
+          <option value="dropdownmenu">Dropdown Menu</option>
         </select>
-      </label>
-      <label>
-        Dropdown List:
+      </div>
+      <div>
+        <label>Dropdown List:</label>
         <select>
-          <option value="dropdownlist">one</option>
-          <option value="dropdownlist">two</option>
-          <option value="dropdownlist">three</option>
-          
+          <option value="dropdownlist">Dropdown List</option>
         </select>
-      </label>
+      </div>
     </div>
   );
 }
