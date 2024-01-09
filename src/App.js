@@ -95,13 +95,19 @@ function App() {
       <label>
         Dropdown Menu:
         <select>
-          <option value="dropdownmenu">Dropdown Menu</option>
+          <option value="dropdownmenu">one</option>
+          <option value="dropdownmenu">two</option>
+          <option value="dropdownmenu">three</option>
+          
         </select>
       </label>
       <label>
         Dropdown List:
         <select>
-          <option value="dropdownlist">Dropdown List</option>
+          <option value="dropdownlist">one</option>
+          <option value="dropdownlist">two</option>
+          <option value="dropdownlist">three</option>
+          
         </select>
       </label>
     </div>
